@@ -1,0 +1,36 @@
+.my_services {
+    background-image: url(../../assets/images/services.jpg);
+}
+
+.bg__container_min {
+    padding: 0 10%;
+    margin-top: 80px;
+    height: 60vh;
+}
+
+.assistence {
+    background-image: url(../../assets/images/assistance.jpg);
+}
+
+.travel__like {
+    background-image: url(../../assets/images/travel_like.jpg);
+}
+
+.networking {
+    background-image: url(../../assets/images/networking.jpg);
+}
+
+.unforgettable {
+    background-image: url(../../assets/images/unforgettable.jpg);
+}
+
+.footer {
+    margin-top: 80px;
+}
+
+@media screen and (max-width:810px) {
+    .title__text {
+        font-size: 1em;
+        letter-spacing: 4px;
+    }
+}
