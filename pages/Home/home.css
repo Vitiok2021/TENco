@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Montserrat_Regular';
-    src: url(/assets/fonts/Montserat-Regular.woff2);
+    src: url(../../assets/fonts/Montserat-Regular.woff2);
 }
 
 @font-face {
     font-family: "Tinos";
-    src: url(/assets/fonts/Tinos-Regular.woff2);
+    src: url(../../assets/fonts/Tinos-Regular.woff2);
 }
 
 @font-face {
     font-family: "Troia";
-    src: url(/assets/fonts/Troia-Regular.woff2);
+    src: url(../../assets/fonts/Troia-Regular.woff2);
 }
 
 .wrapper {
@@ -172,7 +172,7 @@ select {}
 }
 
 .play__life {
-    background-image: url("/assets/images/life_play.jpg");
+    background-image: url("../../assets/images/life_play.jpg");
 }
 
 .shadow {
@@ -306,11 +306,11 @@ select {}
 }
 
 .top__card {
-    background-image: url("/assets/images/card_1.jpg");
+    background-image: url("../../assets/images/card_1.jpg");
 }
 
 .bottom__card {
-    background-image: url("/assets/images/card_3.jpg");
+    background-image: url("../../assets/images/card_3.jpg");
 }
 
 .top__card_inner,
@@ -411,7 +411,7 @@ select {}
 .flip__card_front .img,
 .flip__card_back .img {
     background-size: 100%;
-    background: url("/assets/images/card_2.jpg");
+    background: url("../../assets/images/card_2.jpg");
     background-size: cover;
     background-position: center;
     width: 350px;
@@ -806,13 +806,7 @@ select {}
         /* border-bottom: 0; */
     }
 
-
-
-
 }
-
-
-
 
 @media screen and (max-width:550px) {
     .slider {
