@@ -609,14 +609,16 @@ svg path {
 }
 
 .no-webp .feels-page{
-  background: url("../img/home/life_play.jpg") center fixed no-repeat; }
+  background: url("img/home/life_play.jpg") center no-repeat fixed;
+  
+ }
 
 .feels-page {
   position: relative;
   margin-top: 0.4375rem;
   width: 100%;
   height: 100vh;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -772,12 +774,13 @@ svg path {
 }
 
 .no-webp .about-us{
-  background: url("../img/aboutUs/01.jpg") center fixed no-repeat; }
+  background: url("img/aboutUs/01.jpg") center no-repeat; }
 
 .about-us {
   margin-top: 0.4375rem;
   width: 100%;
   height: 100vh;
+ 
   /* background-attachment: fixed; */
   background-size: cover;
   display: -webkit-box;
