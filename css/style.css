@@ -410,7 +410,7 @@ svg path {
 .form__second-string {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5625rem;
 }
@@ -609,7 +609,7 @@ svg path {
 }
 
 .no-webp .feels-page{
-  background: url("../img/home/life_play.jpg") center no-repeat; }
+  background: url("../img/home/life_play.jpg") center fixed no-repeat; }
 
 .feels-page {
   position: relative;
@@ -669,7 +669,7 @@ svg path {
 .cards-page__items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
+ 
   grid-template-columns: repeat(3, 1fr);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -772,13 +772,13 @@ svg path {
 }
 
 .no-webp .about-us{
-  background: url("../img/aboutUs/01.jpg") center no-repeat; }
+  background: url("../img/aboutUs/01.jpg") center fixed no-repeat; }
 
 .about-us {
   margin-top: 0.4375rem;
   width: 100%;
   height: 100vh;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
