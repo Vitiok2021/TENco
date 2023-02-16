@@ -3418,17 +3418,6 @@
             }));
         }
     }), 0);
-    document.addEventListener("click", documentActions);
-    function documentActions(e) {
-        const targetElement = e.target;
-        console.log(targetElement);
-        if (targetElement.closest(".menu__link")) {
-            let activeTabNavItem = document.querySelector(".menu__link.active");
-            let tabNavItem = document.querySelector(".menu__link");
-            activeTabNavItem.classList.remove("active");
-            tabNavItem.classList.add("active");
-        }
-    }
     window["FLS"] = true;
     isWebp();
 })();

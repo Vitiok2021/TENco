@@ -410,7 +410,7 @@ svg path {
 .form__second-string {
   display: -ms-grid;
   display: grid;
-  
+  -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5625rem;
 }
@@ -609,17 +609,13 @@ svg path {
 }
 
 .no-webp .feels-page{
-  background: url("img/home/life_play.jpg") center no-repeat fixed;
-  
- }
+  background: url("../img/home/life_play.jpg") center/cover no-repeat fixed; }
 
 .feels-page {
   position: relative;
   margin-top: 0.4375rem;
   width: 100%;
   height: 100vh;
-  /* background-attachment: fixed; */
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -671,7 +667,7 @@ svg path {
 .cards-page__items {
   display: -ms-grid;
   display: grid;
- 
+  -ms-grid-columns: (1fr)[3];
   grid-template-columns: repeat(3, 1fr);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -774,15 +770,13 @@ svg path {
 }
 
 .no-webp .about-us{
-  background: url("img/aboutUs/01.jpg") center no-repeat; }
+  background: url("../img/aboutUs/01.jpg") center/cover no-repeat fixed; }
 
 .about-us {
+  position: relative;
   margin-top: 0.4375rem;
   width: 100%;
   height: 100vh;
- 
-  /* background-attachment: fixed; */
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -792,11 +786,6 @@ svg path {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: relative;
-}
-
-.about-us__container {
-  max-width: 71.875rem;
 }
 
 .about-us__title {
@@ -833,13 +822,11 @@ svg path {
 }
 
 .no-webp .reach{
-  background: url("../img/aboutUs/02.jpg") center no-repeat; }
+  background: url("../img/aboutUs/02.jpg") center/cover no-repeat fixed; }
 
 .reach {
   width: 100%;
   height: 60vh;
-  background-attachment: fixed;
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -917,14 +904,12 @@ svg path {
 }
 
 .no-webp .main-service{
-  background: url("../img/services/01.jpg") center no-repeat; }
+  background: url("../img/services/01.jpg") center/cover no-repeat fixed; }
 
 .main-service {
   margin-top: 0.4375rem;
   width: 100%;
   height: 100vh;
-  background-attachment: fixed;
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -954,8 +939,6 @@ svg path {
 .section-services {
   width: 100%;
   height: 60vh;
-  background-attachment: fixed;
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -998,35 +981,19 @@ svg path {
 }
 
 .no-webp .section-services--01{
-  background: url("../img/services/02.jpg") center no-repeat; }
-
-.section-services--01 {
-  background-attachment: fixed;
-}
+  background: url("../img/services/02.jpg") center/cover no-repeat fixed; }
 
 .no-webp .section-services--02{
-  background: url("../img/services/03.jpg") center no-repeat; }
-
-.section-services--02 {
-  background-attachment: fixed;
-}
+  background: url("../img/services/03.jpg") center/cover no-repeat fixed; }
 
 .no-webp .section-services--03{
-  background: url("../img/services/04.jpg") center no-repeat; }
-
-.section-services--03 {
-  background-attachment: fixed;
-}
+  background: url("../img/services/04.jpg") center/cover no-repeat fixed; }
 
 .no-webp .section-services--04{
-  background: url("../img/services/05.jpg") center no-repeat; }
-
-.section-services--04 {
-  background-attachment: fixed;
-}
+  background: url("../img/services/05.jpg") center/cover no-repeat fixed; }
 
 .no-webp .main-membership{
-  background: url("../img/membership/01.jpg") center no-repeat; }
+  background: url("../img/membership/01.jpg") center/cover no-repeat fixed; }
 
 .main-membership {
   margin-top: 0.4375rem;
@@ -1149,7 +1116,7 @@ svg path {
 }
 
 .no-webp .entertaiment-events{
-  background: url("../img/events/bg-01.jpg") center no-repeat; }
+  background: url("../img/events/bg-01.jpg") center/cover no-repeat fixed; }
 
 .entertaiment-events {
   margin-top: 0.4375rem;
@@ -1307,7 +1274,7 @@ svg path {
 }
 
 .no-webp .partners{
-  background: url("../img/partners/01.jpg") center no-repeat; }
+  background: url("../img/partners/01.jpg") center/cover no-repeat fixed; }
 
 .partners {
   margin-top: 0.4375rem;
@@ -2719,7 +2686,7 @@ svg path {
 
 .webp .contacts{ background: url(../img/membership/form-bg.webp) 0 0 no-repeat; }
 
-.webp .feels-page{ background: url(../img/home/life_play.webp) center no-repeat; }
+.webp .feels-page{ background: url(../img/home/life_play.webp) center/cover no-repeat fixed; }
 
 .webp .cards-page__item--01{ background: url(../img/home/card_1.webp) center no-repeat; }
 
@@ -2727,24 +2694,24 @@ svg path {
 
 .webp .cards-page__item--03{ background: url(../img/home/card_3.webp) center no-repeat; }
 
-.webp .about-us{ background: url(../img/aboutUs/01.webp) center no-repeat; }
+.webp .about-us{ background: url(../img/aboutUs/01.webp) center/cover no-repeat fixed; }
 
-.webp .reach{ background: url(../img/aboutUs/02.webp) center no-repeat; }
+.webp .reach{ background: url(../img/aboutUs/02.webp) center/cover no-repeat fixed; }
 
-.webp .main-service{ background: url(../img/services/01.webp) center no-repeat; }
+.webp .main-service{ background: url(../img/services/01.webp) center/cover no-repeat fixed; }
 
-.webp .section-services--01{ background: url(../img/services/02.webp) center no-repeat; }
+.webp .section-services--01{ background: url(../img/services/02.webp) center/cover no-repeat fixed; }
 
-.webp .section-services--02{ background: url(../img/services/03.webp) center no-repeat; }
+.webp .section-services--02{ background: url(../img/services/03.webp) center/cover no-repeat fixed; }
 
-.webp .section-services--03{ background: url(../img/services/04.webp) center no-repeat; }
+.webp .section-services--03{ background: url(../img/services/04.webp) center/cover no-repeat fixed; }
 
-.webp .section-services--04{ background: url(../img/services/05.webp) center no-repeat; }
+.webp .section-services--04{ background: url(../img/services/05.webp) center/cover no-repeat fixed; }
 
-.webp .main-membership{ background: url(../img/membership/01.webp) center no-repeat; }
+.webp .main-membership{ background: url(../img/membership/01.webp) center/cover no-repeat fixed; }
 
-.webp .entertaiment-events{ background: url(../img/events/bg-01.webp) center no-repeat; }
+.webp .entertaiment-events{ background: url(../img/events/bg-01.webp) center/cover no-repeat fixed; }
 
-.webp .partners{ background: url(../img/partners/01.webp) center no-repeat; }
+.webp .partners{ background: url(../img/partners/01.webp) center/cover no-repeat fixed; }
 
 .webp .info-contact{ background: rgba(238, 221, 153, 0.84) url(../img/contact/bg.webp) right/90% no-repeat; }
