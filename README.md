@@ -1,1 +1,1 @@
-# https://vitiok2021.github.io/my_site-03/TENco
+# https://vitiok2021.github.io/TENco/
