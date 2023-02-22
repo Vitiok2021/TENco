@@ -1,142 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>AboutUs</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- <style>body{opacity: 0;}</style> -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20230216211315" />
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<head>
-	<title>AboutUs</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230216211315">
-	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <picture>
+              <source srcset="img/logo.webp" type="image/webp" />
+              <img src="img/logo.png" alt="TenCo" />
+            </picture>
+          </div>
 
-<body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
+          <div class="header__menu menu">
+            <button type="button" class="menu__icon icon-menu">
+              <span></span>
+            </button>
 
-				<div class="header__logo">
-					<picture>
-						<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="TenCo">
-					</picture>
-				</div>
-
-				<div class="header__menu menu">
-					<button type="button" class="menu__icon icon-menu"><span></span></button>
-
-					<nav class="menu__body">
-
-						<ul class="menu__list">
-							<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="about_us.html" class="menu__link active">About Us</a></li>
-							<li class="menu__item"><a href="services.html" class="menu__link">Services</a></li>
-							<li class="menu__item"><a href="membership.html" class="menu__link">Membership</a></li>
-							<li class="menu__item"><a href="events.html" class="menu__link">Events</a></li>
-							<li class="menu__item"><a href="partners.html" class="menu__link">Partners</a></li>
-							<li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-				<!-- <select name="lang" id="lang" class="change__lang">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="index.html" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a href="about_us.html" class="menu__link active">About Us</a>
+                </li>
+                <li class="menu__item">
+                  <a href="services.html" class="menu__link">Services</a>
+                </li>
+                <li class="menu__item">
+                  <a href="membership.html" class="menu__link">Membership</a>
+                </li>
+                <li class="menu__item">
+                  <a href="events.html" class="menu__link">Events</a>
+                </li>
+                <li class="menu__item">
+                  <a href="partners.html" class="menu__link">Partners</a>
+                </li>
+                <li class="menu__item">
+                  <a href="contact.html" class="menu__link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- <select name="lang" id="lang" class="change__lang">
 			<div class="select-wrapper">
 				<option value="en">EN</option>
 				<option value="ua">UA</option>
 			</div>
 		</select> -->
-			</div>
-		</header>
-		<main class="about-page">
+        </div>
+      </header>
+      <main class="about-page">
+        <section class="about-page__about-us about-us">
+          <div class="about-us__container">
+            <h1 class="about-us__title title">ABOUT US</h1>
+          </div>
+          <div class="shadow"></div>
+        </section>
 
-			<section class="about-page__about-us about-us">
-				<div class="about-us__container">
-					<h1 class="about-us__title title">ABOUT US</h1>
-				</div>
-				<div class="shadow"></div>
-			</section>
+        <section class="about-page__text text-about">
+          <div
+            data-watch
+            data-watch-treshold="0.3"
+            class="text-about__container"
+          >
+            <h2 class="text-about__title title title-h2">OUR VISION</h2>
+            <div class="text-about__text text">
+              <p>
+                TENco was created to make you feel free from complexities and
+                worries, enabling you to enjoy your life to the fullest. Our
+                members are at the heart of everything we do. TENco is a place
+                where you can be yourself, unapologetically.
+              </p>
+              <p>
+                We empower you to achieve whatever you desire. Evolve,
+                accelerate, and enjoy the best of what life has to offer. We
+                support our members throughout their inspiring journey.
+              </p>
+              <p>
+                Expect the unexpected and achieve the unachievable. We work
+                hard, so you can play harder!
+              </p>
+            </div>
+          </div>
+        </section>
 
+        <section class="about-page__reach reach">
+          <div class="reach__container">
+            <h3 class="reach__title title title-h3">A GLOBAL REACH</h3>
+            <div class="reach__text text">
+              <p>
+                We work hard all around the world, so that you can play harder
+              </p>
+            </div>
+          </div>
+          <div class="shadow"></div>
+        </section>
 
-			<section class="about-page__text text-about">
-				<div data-watch data-watch-treshold="0.3" class="text-about__container">
-					<h2 class="text-about__title title title-h2">OUR VISION</h2>
-					<div class="text-about__text text">
-						<p>
-							TENco was created to make you feel free from complexities and worries, enabling you to enjoy your
-							life to the fullest. Our members are at the heart of everything we do. TENco is a place where you
-							can be yourself, unapologetically.
-						</p>
-						<p>
-							We empower you to achieve whatever you desire. Evolve, accelerate, and enjoy the best of what life
-							has to offer. We support our members throughout their inspiring journey.
-						</p>
-						<p>
-							Expect the unexpected and achieve the unachievable. We work hard, so you can play harder!
-						</p>
-					</div>
-				</div>
-			</section>
-
-			<section class="about-page__reach reach">
-				<div class="reach__container">
-					<h3 class="reach__title title title-h3">A GLOBAL REACH</h3>
-					<div class="reach__text text">
-						<p>
-							We work hard all around the world, so that you can play harder
-						</p>
-					</div>
-				</div>
-				<div class="shadow"></div>
-			</section>
-
-			<section class="about-page__exist exist">
-				<div class="exist__container">
-					<div data-watch data-watch-treshold="0.3" class="exist__content">
-						<h3 class="exist__title title title-h2">WHY WE EXIST
-						</h3>
-						<div class="exist__text text">
-							<p>
-								TENco’s mission and approach is unique to itself.
-							</p>
-							<p>
-								Our founder and CEO Tural Mammadov, a former wealth manager, created TENco to realize his
-								vision: A company that provides unlimited personalized support in every aspect of life, within
-								the most exclusive community.
-							</p>
-							<p>
-								Begin to live abundantly, thrive every day, free of complications and worries.
-							</p>
-						</div>
-					</div>
-					<div data-watch data-watch-treshold="0.3" class="exist__image">
-						<picture>
-							<source srcset="img/aboutUs/03.webp" type="image/webp"><img src="img/aboutUs/03.jpg" alt="man">
-						</picture>
-					</div>
-				</div>
-			</section>
-
-
-		</main>
-		<footer class="footer">
-			<div class="footer__container">
-				<h4 class="footer__title">
-					Connect With Us
-				</h4>
-				<div class="footer__soc">
-					<a href="#!" class="footer__link"><span class="_icon-instagram"></span></a>
-					<a href="#!" class="footer__link"><span class="_icon-linkedin"></span></a>
-					<a href="#!" class="footer__link"><span class="_icon-facebook"></span></a>
-				</div>
-				<div class="footer__text">
-					<p>
-						©2020 TENco SA - All rights reserved
-					</p>
-				</div>
-			</div>
-		</footer>
-
-		<script src="js/app.min.js?_v=20230216211315"></script>
-</body>
-
+        <section class="about-page__exist exist">
+          <div class="exist__container">
+            <div data-watch data-watch-treshold="0.3" class="exist__content">
+              <h3 class="exist__title title title-h2">WHY WE EXIST</h3>
+              <div class="exist__text text">
+                <p>TENco’s mission and approach is unique to itself.</p>
+                <p>
+                  Our founder and CEO Tural Mammadov, a former wealth manager,
+                  created TENco to realize his vision: A company that provides
+                  unlimited personalized support in every aspect of life, within
+                  the most exclusive community.
+                </p>
+                <p>
+                  Begin to live abundantly, thrive every day, free of
+                  complications and worries.
+                </p>
+              </div>
+            </div>
+            <div data-watch data-watch-treshold="0.3" class="exist__image">
+              <picture>
+                <source srcset="img/aboutUs/03.webp" type="image/webp" />
+                <img src="img/aboutUs/03.jpg" alt="man" />
+              </picture>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <h4 class="footer__title">Connect With Us</h4>
+          <div class="footer__soc">
+            <a href="#!" class="footer__link"
+              ><span class="_icon-instagram"></span
+            ></a>
+            <a href="#!" class="footer__link"
+              ><span class="_icon-linkedin"></span
+            ></a>
+            <a href="#!" class="footer__link"
+              ><span class="_icon-facebook"></span
+            ></a>
+          </div>
+          <div class="footer__text">
+            <p>©2020 TENco SA - All rights reserved</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/app.min.js?_v=20230216211315"></script>
+  </body>
 </html>

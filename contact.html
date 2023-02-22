@@ -1,129 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- <style>body{opacity: 0;}</style> -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20230216211315" />
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<head>
-	<title>Contact</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230216211315">
-	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <picture>
+              <source srcset="img/logo.webp" type="image/webp" />
+              <img src="img/logo.png" alt="TenCo" />
+            </picture>
+          </div>
 
-<body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
+          <div class="header__menu menu">
+            <button type="button" class="menu__icon icon-menu">
+              <span></span>
+            </button>
 
-				<div class="header__logo">
-					<picture>
-						<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="TenCo">
-					</picture>
-				</div>
-
-				<div class="header__menu menu">
-					<button type="button" class="menu__icon icon-menu"><span></span></button>
-
-					<nav class="menu__body">
-
-						<ul class="menu__list">
-							<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="about_us.html" class="menu__link">About Us</a></li>
-							<li class="menu__item"><a href="services.html" class="menu__link">Services</a></li>
-							<li class="menu__item"><a href="membership.html" class="menu__link">Membership</a></li>
-							<li class="menu__item"><a href="events.html" class="menu__link">Events</a></li>
-							<li class="menu__item"><a href="partners.html" class="menu__link">Partners</a></li>
-							<li class="menu__item"><a href="contact.html" class="menu__link active">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-				<!-- <select name="lang" id="lang" class="change__lang">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="index.html" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a href="about_us.html" class="menu__link">About Us</a>
+                </li>
+                <li class="menu__item">
+                  <a href="services.html" class="menu__link">Services</a>
+                </li>
+                <li class="menu__item">
+                  <a href="membership.html" class="menu__link">Membership</a>
+                </li>
+                <li class="menu__item">
+                  <a href="events.html" class="menu__link">Events</a>
+                </li>
+                <li class="menu__item">
+                  <a href="partners.html" class="menu__link">Partners</a>
+                </li>
+                <li class="menu__item">
+                  <a href="contact.html" class="menu__link active">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- <select name="lang" id="lang" class="change__lang">
 			<div class="select-wrapper">
 				<option value="en">EN</option>
 				<option value="ua">UA</option>
 			</div>
 		</select> -->
-			</div>
-		</header>
-		<main class="contact-main contact">
+        </div>
+      </header>
+      <main class="contact-main contact">
+        <section class="contact__info info-contact">
+          <div class="info-contact__container">
+            <h1 class="info-contact__title title">CONTACT US</h1>
+            <div class="info-contact__items">
+              <article class="info-contact__item item-info">
+                <div class="item-info__image">
+                  <img src="img/contact/icons/location.svg" alt="location" />
+                </div>
+                <h3 class="item-info__title">HEADQUARTERS</h3>
+                <div class="item-info__info">
+                  <p>Rue de Rive 4</p>
+                  <p>1204 Geneva, Switzerland</p>
+                </div>
+              </article>
 
-			<section class="contact__info info-contact">
-				<div class="info-contact__container">
-					<h1 class="info-contact__title title">CONTACT US</h1>
-					<div class="info-contact__items">
-						<article class="info-contact__item item-info">
-							<div class="item-info__image">
-								<img src="img/contact/icons/location.svg" alt="location">
-							</div>
-							<h3 class="item-info__title">HEADQUARTERS</h3>
-							<div class="item-info__info">
-								<p>
-									Rue de Rive 4
-								</p>
-								<p>
-									1204 Geneva, Switzerland
-								</p>
-							</div>
-						</article>
+              <article class="info-contact__item item-info">
+                <div class="item-info__image">
+                  <img
+                    src="img/contact/icons/smartphone.svg"
+                    alt="smartphone"
+                  />
+                </div>
+                <h3 class="item-info__title">Telephone</h3>
+                <div class="item-info__info">
+                  <p>+41 79 365 11 10</p>
+                </div>
+              </article>
 
-						<article class="info-contact__item item-info">
-							<div class="item-info__image">
-								<img src="img/contact/icons/smartphone.svg" alt="smartphone">
-							</div>
-							<h3 class="item-info__title">Telephone</h3>
-							<div class="item-info__info">
-								<p>
-									+41 79 365 11 10
-								</p>
-							</div>
-						</article>
+              <article class="info-contact__item item-info">
+                <div class="item-info__image">
+                  <img src="img/contact/icons/mail.svg" alt="mail" />
+                </div>
+                <h3 class="item-info__title">Email</h3>
+                <div class="item-info__info">
+                  <p>contact@tenco.ch</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
 
-						<article class="info-contact__item item-info">
-							<div class="item-info__image">
-								<img src="img/contact/icons/mail.svg" alt="mail">
-							</div>
-							<h3 class="item-info__title">Email</h3>
-							<div class="item-info__info">
-								<p>
-									contact@tenco.ch
-								</p>
-							</div>
-						</article>
-					</div>
-				</div>
-
-			</section>
-
-			<section class="frame">
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22269.681963431518!2d8.51741786552859!3d45.75695457823161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478671c02e383291%3A0xf12c2ea8732ed409!2zMjgwNDEg0JDRgNC-0L3QsCwg0J3QvtCy0LDRgNCwLCDQmNGC0LDQu9C40Y8!5e0!3m2!1sru!2sua!4v1676232235900!5m2!1sru!2sua"
-					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"></iframe>
-			</section>
-
-
-		</main>
-		<footer class="footer">
-			<div class="footer__container">
-				<h4 class="footer__title">
-					Connect With Us
-				</h4>
-				<div class="footer__soc">
-					<a href="#!" class="footer__link"><span class="_icon-instagram"></span></a>
-					<a href="#!" class="footer__link"><span class="_icon-linkedin"></span></a>
-					<a href="#!" class="footer__link"><span class="_icon-facebook"></span></a>
-				</div>
-				<div class="footer__text">
-					<p>
-						©2020 TENco SA - All rights reserved
-					</p>
-				</div>
-			</div>
-		</footer>
-
-		<script src="js/app.min.js?_v=20230216211315"></script>
-</body>
-
+        <div class="frame">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22269.681963431518!2d8.51741786552859!3d45.75695457823161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478671c02e383291%3A0xf12c2ea8732ed409!2zMjgwNDEg0JDRgNC-0L3QsCwg0J3QvtCy0LDRgNCwLCDQmNGC0LDQu9C40Y8!5e0!3m2!1sru!2sua!4v1676232235900!5m2!1sru!2sua"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <h4 class="footer__title">Connect With Us</h4>
+          <div class="footer__soc">
+            <a href="#!" class="footer__link"
+              ><span class="_icon-instagram"></span
+            ></a>
+            <a href="#!" class="footer__link"
+              ><span class="_icon-linkedin"></span
+            ></a>
+            <a href="#!" class="footer__link"
+              ><span class="_icon-facebook"></span
+            ></a>
+          </div>
+          <div class="footer__text">
+            <p>©2020 TENco SA - All rights reserved</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/app.min.js?_v=20230216211315"></script>
+  </body>
 </html>
